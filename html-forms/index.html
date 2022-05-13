@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Html Forms</title>
+</head>
+<body>
+  <h1>Coding Form!</h1>
+  <form action="#" method="get" class="coding-form">
+    <div class="coding-form">
+      <label for="email">Email</label>
+    </div>
+    <input type="text" name="email" id="email">
+    <div class="coding-form">
+      <label for="question">Why is coding cool?</label>
+    </div>
+    <select name="coding-question" id="question">
+      <option value="select-option">Select an option</option>
+      <option value="interesting">Because it's interesting</option>
+      <option value="fun">Because it's fun</option>
+      <option value="powerful">Because it's powerful</option>
+    </select>
+    <div class="coding-form">
+      <p>Favorite Language (choose one)</p>
+      <label for="language-html">HTML</label>
+      <input type="radio" id="language-html" name="favorite-language" value="html" checked="checked" />
+      <label for="language-css">CSS</label>
+      <input type="radio" id="language-css" name="favorite-language" value="css" />
+      <label for="language-js">JavaScript</label>
+      <input type="radio" id="language-js" name="favorite-language" value="javascript" />
+    </div>
+    <div class="coding-form">
+      <p>Would you like to sign up for more information?</p>
+      <label for="information-checkbox">Sign me up!</label>
+      <input type="checkbox" id="information-checkbox" name="more-information" value="sign-up" />
+    </div>
+    <div class="coding-form">
+      <label for="comments">Comments</label><br />
+      <textarea id="comments" name="comments-area" cols="30" rows="10"></textarea>
+    </div>
+    <div class="coding-form">
+      <input type="submit" name="submit-button" value="Submit"/>
+    </div>
+  </form>
+</body>
+</html>
