@@ -1,9 +1,9 @@
-input {
+button {
   padding: 10px 30px;
   font-size: 25px;
 }
 
-input:hover {
+button:hover {
   background-color: black;
   color: white;
 }
