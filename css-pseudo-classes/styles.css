@@ -1,0 +1,18 @@
+input {
+  padding: 10px 30px;
+  font-size: 25px;
+}
+
+input:hover {
+  background-color: black;
+  color: white;
+}
+
+tr.table-data:nth-child(odd) {
+  background-color: #e4dcd9;
+}
+
+tr.table-header {
+  background-color: black;
+  color: white;
+}
