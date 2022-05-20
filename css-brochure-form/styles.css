@@ -5,43 +5,64 @@
   font-size: 16px;
 }
 
+.form-container {
+  width: 400px;
+  text-align: center;
+  margin: auto;
+  line-height: 1.5;
+}
+
 h1 {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 16px;
   color: #eb6534;
-  margin-left: 150px;
+  text-align: center;
 }
 
 ::placeholder {
   font-family: AtlasGrotes, sans-serif;
-  color: lightgrey;
+  font-size: 14px;
+  color: #b0b1aa;
 }
 
 label {
   font-weight: 500;
-  font-size: 12px;
+  font-size: 11px;
   margin-left: 10px;
 }
 
 input {
-  padding: 8px 270px 8px 8px;
+  width: 100%;
   border-radius: 5px;
-  border-color: lightgrey;
+  border-style: solid;
+  border-width: thin;
+  border-color: #b0b1aa;
   margin-bottom: 10px;
+  padding: 7px;
 }
 
 select {
-  padding: 8px 300px 8px 8px;
+  width: 100%;
   border-radius: 5px;
   margin-bottom: 10px;
+  padding: 7px;
   background: rgb(0 0 0 / 5%);
 }
 
 button {
   background-color: #eb6534;
-  border-radius: 15px;
-  padding: 3px 15px;
+  border-radius: 18px;
+  border-style: none;
+  padding: 6px 19px;
   color: white;
-  margin-left: 345px;
-  font-size: 14px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.red-button {
+  text-align: right;
+}
+
+.label {
+  text-align: left;
 }
