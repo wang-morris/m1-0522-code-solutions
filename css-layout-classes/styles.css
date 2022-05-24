@@ -15,10 +15,6 @@
   flex-basis: 100%;
 }
 
-.column-third {
-  display: flex;
-}
-
 .one-third {
   flex-basis: 33%;
 }
@@ -27,8 +23,8 @@
   flex-basis: 66%;
 }
 
-.column-fourth {
-  display: flex;
+.one-fourth {
+  flex-basis: 25%;
 }
 
 img {
