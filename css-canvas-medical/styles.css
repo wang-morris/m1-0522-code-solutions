@@ -1,0 +1,229 @@
+.container {
+  margin: auto;
+  font-family: Avenir, sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Tiempos Headline", sans-serif;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+button {
+  font-family: Avenir, sans-serif;
+}
+
+.row {
+  display: flex;
+  position: relative;
+}
+
+.column-half {
+  flex-basis: 50%;
+  position: relative;
+}
+
+/* top header of pages */
+
+.fixed-width {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.links {
+  position: relative;
+  top: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+a:link {
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.links > a {
+  color: rgb(155 154 154);
+}
+
+.header-button {
+  padding: 0.65rem 0.8rem;
+  border-style: none;
+  border-radius: 0.3rem;
+  color: white;
+  background: #073d5a;
+  position: relative;
+  bottom: 0.5rem;
+}
+
+.home-page-title {
+  font-size: 2.8rem;
+  position: relative;
+  bottom: 1.8rem;
+  color: #073d5a;
+  font-weight: 100;
+}
+
+hr {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 4rem;
+  border-top: darkslategrey;
+}
+
+/* photos with text overlay */
+
+.column-full {
+  flex-basis: 100%;
+  position: relative;
+}
+
+img {
+  width: 100%;
+}
+
+.picture-with-text {
+  background-image: url("images/hero.jpg");
+  background-size: cover;
+  position: relative;
+  top: 1rem;
+  height: 450px;
+  margin-bottom: 4.5rem;
+}
+
+.image-text {
+  position: relative;
+  left: 3.5rem;
+  top: 2.5rem;
+  color: white;
+}
+
+.overlay {
+  background: rgba(0 0 0/ 15%);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.photo-button {
+  padding: 0.9rem 2.4rem;
+  border-style: none;
+  border-radius: 0.3rem;
+  color: white;
+  background: #073d5a;
+  font-size: 16px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 1.8;
+  padding-bottom: 0.6rem;
+}
+
+/* grey boxes with text */
+
+.grey-box {
+  color: #6c6b6b;
+  text-align: center;
+  background: #f8f6f6;
+  height: 215px;
+}
+
+.preference {
+  position: relative;
+  left: 25%;
+  top: 2rem;
+}
+
+.locations > p {
+  font-size: 1rem;
+}
+
+/* learn more */
+
+.learn-more {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  color: #6c6b6b;
+  line-height: 0.7;
+  position: relative;
+}
+
+.learn-more-button {
+  position: relative;
+}
+
+.learn-more-button > button {
+  position: relative;
+  top: 1.5rem;
+  left: 18rem;
+}
+
+/* contact information and links */
+
+.column-fourth {
+  flex-basis: 25%;
+  margin-top: 3rem;
+}
+
+.dark-grey-box {
+  color: white;
+  background: #4b4e4a;
+  height: 375px;
+  display: flex;
+  position: relative;
+}
+
+.column-fourth > p {
+  line-height: 0;
+  font-size: 0.2;
+}
+
+.about-company {
+  margin-top: 5rem;
+}
+
+.about-company > a {
+  color: white;
+  display: flex;
+  line-height: 2.2;
+  font-size: 1rem;
+}
+
+.about-company > p {
+  font-size: 1rem;
+}
+
+.address {
+  position: relative;
+  left: 5rem;
+  margin-top: 5rem;
+}
+
+.address > h1 {
+  font-size: 2.5rem;
+  position: relative;
+  bottom: 1.8rem;
+  font-weight: 100;
+}
+
+.address > p {
+  line-height: 0;
+}
+
+/* footer */
+
+.footer-links > a {
+  font-size: 1rem;
+  color: rgb(85 84 84);
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3rem;
+}
