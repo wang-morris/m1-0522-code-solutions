@@ -14,7 +14,6 @@ var unknown = null;
 console.log('unknown:', unknown);
 console.log('typeof unknown:', typeof unknown);
 
-var never =
-// eslint-disable-next-line no-use-before-define
+var never;
 console.log('never:', never);
 console.log('typeof never:', typeof never);
