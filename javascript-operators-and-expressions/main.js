@@ -34,7 +34,6 @@ console.log('isSparta:', isSparta);
 console.log('typeof isSparta:', typeof isSparta);
 
 var motto = fullName;
-// eslint-disable-next-line no-redeclare
-var motto = fullName + ' is the GOAT';
+motto += ' is the GOAT';
 console.log('motto:', motto);
 console.log('typeof motto:', typeof motto);
