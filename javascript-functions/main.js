@@ -31,7 +31,7 @@ var personFirstNameResult = getFirstName({ firstName: 'Lelouche', lastName: 'Lam
 console.log('personFirstNameResult:', personFirstNameResult);
 
 function getLastElement(array) {
-  var lastElement = array.length - 1;
+  var lastElement = array[array.length - 1];
   return lastElement;
 }
 
