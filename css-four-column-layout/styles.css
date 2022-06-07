@@ -1,0 +1,51 @@
+* {
+  font-family: Barlow, sans-serif;
+  background-color: rgb(241 242 245);
+  text-align: center;
+}
+
+.container {
+  max-width: 950px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column-full {
+  flex-basis: 100%;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+p {
+  font-weight: 300;
+  font-size: 0.7rem;
+}
+
+/* row of phone images */
+
+.column-fourth {
+  flex-basis: 25%;
+}
+
+img {
+  width: 100%;
+}
+
+.image {
+  padding: 0 0.8rem;
+}
+
+/* row of icons for each feauture */
+
+.icons > img {
+  width: 20%;
+}
