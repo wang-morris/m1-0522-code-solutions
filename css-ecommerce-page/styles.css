@@ -51,8 +51,7 @@ p {
   color: lightgrey;
 }
 
-/* prices */
-
+/* prices and original prices */
 .price {
   background-color: rgb(248 234 226);
   border-radius: 0.2rem;
