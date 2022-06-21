@@ -1,14 +1,19 @@
 console.log('hello, world');
 
-console.log(document.querySelector('h1'));
-console.dir('h1');
+var heading = document.querySelector('h1');
+console.log(heading);
+console.dir(heading);
 
-console.log(document.querySelector('#explanation'));
-console.dir('#explanation');
+var explanationParagraph = document.querySelector('#explanation');
+console.log(explanationParagraph);
+console.dir(explanationParagraph);
 
-console.log(document.querySelector('.hint'));
-console.dir('hint');
+var hint = document.querySelector('.hint');
+console.log(hint);
+console.dir(hint);
 
-console.log(document.querySelectorAll('p'));
+var pElements = document.querySelectorAll('p');
+console.log(pElements);
 
-console.log(document.querySelectorAll('.example-link'));
+var allExampleLinks = document.querySelectorAll('.example-link');
+console.log(allExampleLinks);
