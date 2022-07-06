@@ -1,0 +1,26 @@
+.container {
+  font-family: Arvo, serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.1rem;
+  white-space: pre;
+}
+
+.sentence {
+  display: flex;
+}
+
+.current {
+  border-bottom: solid black;
+}
+
+.correct {
+  color: rgb(78 185 45);
+}
+
+.incorrect {
+  color: red;
+  border-bottom: solid red;
+}
